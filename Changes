@@ -1,0 +1,13 @@
+Revision history for Perl extension String::Parity.
+
+1.1   Thu Nov  2 15:25:28 1995
+	- original version; released as Text::Parity
+
+1.2   Thu Nov  2 15:25:29 1995
+	- renamed to String::Parity
+
+1.3   Sun Nov 12 21:11:05 1995
+	- included mark/space handling
+
+1.31  Tue Dec 10 12:19:31 1996
+	- integrate MakeMaker

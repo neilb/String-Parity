@@ -1,0 +1,32 @@
+The String::Parity module for perl5 may be used to generate and test
+even, odd, mark and space parity on arbitrary strings.
+
+To install this module, cd to the directory that this README file is
+in and type the following:
+
+	perl Makefile.PL
+	make
+	make test
+	make install
+
+The 'make test' line is optional.
+
+Documentation for this module is part of the file Parity.pm using
+the pod (Plain Old Documentation) format.  To convert it into manual
+page format, type something like the following:
+
+	pod2man Parity.pm > Parity.man
+
+To convert it into html format, type:
+
+	pod2html Parity.pm
+
+(pod2html automatically creates a file named Parity.html)
+
+Copyright (c) 1995, 1996 Winfried Koenig. All rights reserved.
+This program is free software; you can redistribute it and/or
+modify it under the same terms as Perl itself.
+
+-- 
+Winfried Koenig, Arendsstrasse 12, D-63075 Offenbach
+Phone: +49 69 868707,  Mail: <win@in.rhein-main.de>
