@@ -2,7 +2,7 @@ package String::Parity;
 
 use strict;
 use vars qw(
-    $VERSION $Version $Revision
+    $VERSION $Version
     @ISA @EXPORT @EXPORT_OK
     $even_parity $odd_parity $show_parity
 );
@@ -11,8 +11,7 @@ require Exporter;
 
 @ISA = qw(Exporter);
 
-$Version = $VERSION = "1.31";
-($Revision = substr(q$Revision: 1.7 $, 10)) =~ s/\s+$//;
+$Version = $VERSION = "1.32";
 
 @EXPORT = qw(
     setEvenParity setOddParity
@@ -154,15 +153,12 @@ __END__
 
 =head1 NAME
 
-String::Parity, setEvenParity, setOddParity, setSpaceParity, setMarkParity,
-isEvenParity, isOddParity isSpaceParity, isMarkParity,
-EvenBytes, OddBytes, SpaceBytes, MarkBytes,
-showParity, showMarkSpace - Parity (odd/even/mark/space) handling functions
+String::Parity - parity (odd/even/mark/space) handling functions
 
 =head1 SYNOPSIS
 
-    use String::Parity;
-    use String::Parity qw(:DEFAULT /show/);
+ use String::Parity;
+ use String::Parity qw(:DEFAULT /show/);
 
 =head1 DESCRIPTION
 
