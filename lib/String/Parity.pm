@@ -234,12 +234,22 @@ Don't use this module unless you have to communicate with some old device
 or protocol. Please make your application 8 bit clean and use the
 internationally standardised ISO-8859-1 character set.
 
-=head1 AUTHOR
-
-Winfried Koenig <win@in.rhein-main.de>
-
 =head1 SEE ALSO
 
-perl(1), Exporter(1)
+I don't know of any other modules that provide similar functionality.
+If you do, please let me know so I can update this section.
+
+=head1 AUTHOR
+
+This module was written by Winfried Koenig.
+
+Updates to follow modern CPAN conventions by Neil Bowers (NEILB).
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 1995 by Winfried Koenig.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
 
 =cut
