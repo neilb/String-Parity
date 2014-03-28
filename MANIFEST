@@ -2,5 +2,5 @@ Changes
 README
 MANIFEST
 Makefile.PL
-Parity.pm
+lib/String/Parity.pm
 test.pl
