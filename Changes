@@ -4,6 +4,7 @@ Revision history for Perl module String::Parity
     - Reformatted this file as per CPAN::Changes::Spec
     - Moved Parity.pm to lib/String/Parity.pm
     - Moved testsuite into t/ as String-Parity.t
+    - Moved to Dist::Zilla
 
 1.31 1996-12-10 @winko
 	- integrate MakeMaker
