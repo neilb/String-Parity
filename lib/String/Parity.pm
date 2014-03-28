@@ -239,6 +239,10 @@ internationally standardised ISO-8859-1 character set.
 I don't know of any other modules that provide similar functionality.
 If you do, please let me know so I can update this section.
 
+=head1 REPOSITORY
+
+L<https://github.com/neilbowers/String-Parity>
+
 =head1 AUTHOR
 
 This module was written by Winfried Koenig.
