@@ -1,19 +1,15 @@
 package String::Parity;
 
 use strict;
-use vars qw(
-    $VERSION $Version
-    @ISA @EXPORT @EXPORT_OK
-    $even_parity $odd_parity $show_parity
-);
+use warnings;
 
 require Exporter;
 
-@ISA = qw(Exporter);
+our @ISA = qw(Exporter);
 
-$Version = $VERSION = "1.32";
+our $VERSION = "1.32";
 
-@EXPORT = qw(
+our @EXPORT = qw(
     setEvenParity setOddParity
     setMarkParity setSpaceParity
     EvenBytes OddBytes
@@ -22,11 +18,12 @@ $Version = $VERSION = "1.32";
     isMarkParity isSpaceParity
 );
 
-@EXPORT_OK = qw(
+our @EXPORT_OK = qw(
     showParity showMarkSpace
     $even_parity $odd_parity
     $show_parity $even_codes
 );
+our ($even_parity, $odd_parity, $show_parity);
 
 my $even_bits = "\0";
 my $odd_bits = "\200";
