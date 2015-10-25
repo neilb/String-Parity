@@ -1,6 +1,9 @@
 Revision history for Perl module String::Parity
 
-1.32 2014-03-28 @neilb
+1.33 2015-20-25 NEILB
+    - Updated github repo URL in metadata and doc with new github username
+
+1.32 2014-03-28 NEILB
     - Added "use warnings" and removed use of 'use vars'
     - Fixed pod abstract to follow usual convention
     - Updated author section and added COPYRIGHT AND LICENSE

@@ -242,7 +242,7 @@ If you do, please let me know so I can update this section.
 
 =head1 REPOSITORY
 
-L<https://github.com/neilbowers/String-Parity>
+L<https://github.com/neilb/String-Parity>
 
 =head1 AUTHOR
 
