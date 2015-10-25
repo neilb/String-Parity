@@ -1,6 +1,8 @@
 Revision history for Perl module String::Parity
 
 1.33 2015-20-25 NEILB
+    - Added [MetaJSON] to dist.ini so release tarballs will have META.json
+    - Auto tag and push to github on release
     - Updated github repo URL in metadata and doc with new github username
 
 1.32 2014-03-28 NEILB
