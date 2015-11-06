@@ -8,8 +8,6 @@ require Exporter;
 
 our @ISA = qw(Exporter);
 
-our $VERSION = "1.32";
-
 our @EXPORT = qw(
     setEvenParity setOddParity
     setMarkParity setSpaceParity

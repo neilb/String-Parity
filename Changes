@@ -1,5 +1,8 @@
 Revision history for Perl module String::Parity
 
+1.34 2015-11-06 NEILB
+    - Removed the $VERSION from String/Parity.pm so that DZ can manage it.
+
 1.33 2015-20-25 NEILB
     - Added [MetaJSON] to dist.ini so release tarballs will have META.json
     - Auto tag and push to github on release
